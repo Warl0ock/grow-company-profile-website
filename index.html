@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GROW - Digital Printing & Advertising Solutions</title>
+    <meta name="description" content="Solusi digital printing, display systems, booth pameran, dan outdoor advertising yang energik dan elegan untuk generasi muda.">
+    <meta name="keywords" content="digital printing, display systems, booth pameran, outdoor advertising, GROW">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <h1 class="brand-logo">GROW</h1>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="admin.php" class="nav-link">Admin</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Slider Section -->
+    <section class="hero-slider">
+        <div class="slider-container">
+            <div class="slide active" data-slide="0">
+                <img src="https://placehold.co/1920x1080?text=GROW+Digital+Printing+Solutions" alt="GROW Digital Printing Solutions" class="slide-image">
+                <div class="slide-overlay"></div>
+                <div class="slide-content">
+                    <h1 class="slide-title">GROW</h1>
+                    <p class="slide-subtitle">Digital Printing • Display Systems • Booth Exhibitions • Outdoor Advertising</p>
+                    <p class="slide-description">Energetic, elegant solutions for the modern generation</p>
+                    <button class="cta-button">Explore Our Services</button>
+                </div>
+            </div>
+            
+            <div class="slide" data-slide="1">
+                <img src="https://placehold.co/1920x1080?text=Professional+Display+Systems" alt="Professional Display Systems" class="slide-image">
+                <div class="slide-overlay"></div>
+                <div class="slide-content">
+                    <h1 class="slide-title">GROW</h1>
+                    <p class="slide-subtitle">Professional Display Systems</p>
+                    <p class="slide-description">Modern solutions that capture attention and engage audiences</p>
+                    <button class="cta-button">Learn More</button>
+                </div>
+            </div>
+            
+            <div class="slide" data-slide="2">
+                <img src="https://placehold.co/1920x1080?text=Creative+Booth+Exhibitions" alt="Creative Booth Exhibitions" class="slide-image">
+                <div class="slide-overlay"></div>
+                <div class="slide-content">
+                    <h1 class="slide-title">GROW</h1>
+                    <p class="slide-subtitle">Creative Booth Exhibitions</p>
+                    <p class="slide-description">Stand out at events with our innovative booth designs</p>
+                    <button class="cta-button">Get Started</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Slider Navigation -->
+        <button class="slider-nav prev" onclick="changeSlide(-1)">‹</button>
+        <button class="slider-nav next" onclick="changeSlide(1)">›</button>
+        
+        <!-- Slider Dots -->
+        <div class="slider-dots">
+            <span class="dot active" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </section>
+
+    <!-- Services Carousel Section -->
+    <section class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-description">Discover our comprehensive range of digital solutions designed for the modern business landscape</p>
+            </div>
+            
+            <div class="carousel-container">
+                <!-- Carousel Navigation -->
+                <div class="carousel-nav">
+                    <button class="carousel-btn prev" onclick="moveCarousel(-1)">← Previous</button>
+                    <div class="carousel-counter">
+                        <span id="carousel-current">1</span> - <span id="carousel-showing">3</span> of <span id="carousel-total">6</span>
+                    </div>
+                    <button class="carousel-btn next" onclick="moveCarousel(1)">Next →</button>
+                </div>
+                
+                <!-- Carousel Items -->
+                <div class="carousel-wrapper">
+                    <div class="carousel-track" id="carousel-track">
+                        <!-- Service Card 1 -->
+                        <div class="service-card">
+                            <div class="card-image">
+                                <img src="https://placehold.co/400x300?text=Digital+Printing+Services" alt="Digital Printing Services">
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title">Digital Printing</h3>
+                                <p class="card-description">High-quality digital printing solutions for all your business needs</p>
+                                <button class="card-button">Learn More</button>
+                            </div>
+                        </div>
+                        
+                        <!-- Service Card 2 -->
+                        <div class="service-card">
+                            <div class="card-image">
+                                <img src="https://placehold.co/400x300?text=Display+System+Solutions" alt="Display System Solutions">
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title">Display Systems</h3>
+                                <p class="card-description">Modern display systems that capture attention and engage audiences</p>
+                                <button class="card-button">Learn More</button>
+                            </div>
+                        </div>
+                        
+                        <!-- Service Card 3 -->
+                        <div class="service-card">
+                            <div class="card-image">
+                                <img src="https://placehold.co/400x300?text=Exhibition+Booth+Design" alt="Exhibition Booth Design">
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title">Booth Exhibitions</h3>
+                                <p class="card-description">Creative booth designs that make your brand stand out at events</p>
+                                <button class="card-button">Learn More</button>
+                            </div>
+                        </div>
+                        
+                        <!-- Service Card 4 -->
+                        <div class="service-card">
+                            <div class="card-image">
+                                <img src="https://placehold.co/400x300?text=Outdoor+Advertising+Solutions" alt="Outdoor Advertising Solutions">
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title">Outdoor Advertising</h3>
+                                <p class="card-description">Eye-catching outdoor advertising that reaches your target audience</p>
+                                <button class="card-button">Learn More</button>
+                            </div>
+                        </div>
+                        
+                        <!-- Service Card 5 -->
+                        <div class="service-card">
+                            <div class="card-image">
+                                <img src="https://placehold.co/400x300?text=Creative+Design+Services" alt="Creative Design Services">
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title">Creative Design</h3>
+                                <p class="card-description">Innovative design solutions that bring your vision to life</p>
+                                <button class="card-button">Learn More</button>
+                            </div>
+                        </div>
+                        
+                        <!-- Service Card 6 -->
+                        <div class="service-card">
+                            <div class="card-image">
+                                <img src="https://placehold.co/400x300?text=Brand+Identity+Solutions" alt="Brand Identity Solutions">
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title">Brand Identity</h3>
+                                <p class="card-description">Complete brand identity packages for modern businesses</p>
+                                <button class="card-button">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Carousel Dots -->
+                <div class="carousel-dots">
+                    <span class="carousel-dot active" onclick="goToCarouselSlide(0)"></span>
+                    <span class="carousel-dot" onclick="goToCarouselSlide(1)"></span>
+                    <span class="carousel-dot" onclick="goToCarouselSlide(2)"></span>
+                    <span class="carousel-dot" onclick="goToCarouselSlide(3)"></span>
+                </div>
+            </div>
+            
+            <!-- Call to Action -->
+            <div class="cta-section">
+                <button class="cta-button-large">Get Started Today</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3 class="brand-logo">GROW</h3>
+                    <p>Energetic, elegant solutions for the modern generation</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Digital Printing</a></li>
+                        <li><a href="#">Display Systems</a></li>
+                        <li><a href="#">Booth Exhibitions</a></li>
+                        <li><a href="#">Outdoor Advertising</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p>Email: info@grow.com</p>
+                    <p>Phone: +62 123 456 789</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 GROW. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
