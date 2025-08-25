@@ -1,0 +1,36 @@
+{
+    "slider_image": "https://placehold.co/1920x1080?text=GROW+Digital+Printing+Solutions",
+    "carousel_items": [
+        {
+            "image": "https://placehold.co/400x300?text=Digital+Printing+Services",
+            "title": "Digital Printing",
+            "description": "High-quality digital printing solutions for all your business needs"
+        },
+        {
+            "image": "https://placehold.co/400x300?text=Display+System+Solutions",
+            "title": "Display Systems",
+            "description": "Modern display systems that capture attention and engage audiences"
+        },
+        {
+            "image": "https://placehold.co/400x300?text=Exhibition+Booth+Design",
+            "title": "Booth Exhibitions",
+            "description": "Creative booth designs that make your brand stand out at events"
+        },
+        {
+            "image": "https://placehold.co/400x300?text=Outdoor+Advertising+Solutions",
+            "title": "Outdoor Advertising",
+            "description": "Eye-catching outdoor advertising that reaches your target audience"
+        },
+        {
+            "image": "https://placehold.co/400x300?text=Creative+Design+Services",
+            "title": "Creative Design",
+            "description": "Innovative design solutions that bring your vision to life"
+        },
+        {
+            "image": "https://placehold.co/400x300?text=Brand+Identity+Solutions",
+            "title": "Brand Identity",
+            "description": "Complete brand identity packages for modern businesses"
+        }
+    ],
+    "updated_at": "2024-01-15 10:30:00"
+}
